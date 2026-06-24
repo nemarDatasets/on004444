@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 1",
+  "description": "A high-density scalp electroencephalogram (HD-EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. The dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor activities, designed to support the development and validation of BCI systems. This resource provides a comprehensive foundation for investigating neural correlates of motor planning and brain-computer communication.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +15,29 @@
     "Midori Kodama": {},
     "Junichi Ushiba": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004444.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "sensorimotor rhythm"
+    },
+    {
+      "term": "high-density electroencephalography"
+    },
+    {
+      "term": "neural decoding"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004444",
       "identifier_type": "URL",
@@ -34,43 +52,11 @@
       "identifier": "10.1038/s41597-023-02260-6",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "A high-density scalp electroencephalogram (EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor activities, designed to support the development and validation of BCI systems. The high-density electrode configuration enables detailed spatial characterization of cortical activity underlying motor control and brain-computer communication.",
-  "keywords": [
-    {
-      "term": "EEG"
     },
     {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "sensorimotor rhythm"
-    },
-    {
-      "term": "high-density electroencephalography"
-    },
-    {
-      "term": "scalp recording"
+      "identifier": "10.18112/openneuro.ds004444.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -79,5 +65,19 @@
       "award_number": ""
     }
   ],
-  "source_hash": "45fd7baf522b8fc316f3e9246dd72156193fd8a7e1317f859cdfeb4e171ceda1"
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "52.0 GB (466 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "0cb8c994fc7f910f2dd41a9fb3fd1ac114227680eb1d1447f46a6c70dfdec387"
 }
