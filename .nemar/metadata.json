@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 1",
-  "description": "A high-density scalp electroencephalogram (HD-EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor activities, designed to support the development and validation of BCI systems. The dataset provides a comprehensive resource for investigating neural correlates of motor planning and brain-computer communication.",
+  "description": "The BMI-HDEEG dataset comprises high-density scalp electroencephalogram (EEG) recordings acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset provides detailed neurophysiological measurements from multiple subjects performing motor imagery and related sensorimotor activities, enabling investigation of cortical dynamics underlying BCI performance and sensorimotor processing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,17 +34,12 @@
       "term": "high-density electroencephalography"
     },
     {
-      "term": "neural decoding"
+      "term": "cortical oscillations"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004444",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004444",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -57,6 +52,11 @@
       "identifier": "10.18112/openneuro.ds004444.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004444",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -70,7 +70,7 @@
     "eeg"
   ],
   "sizes": [
-    "52.0 GB (466 files)"
+    "52.2 GB (466 files)"
   ],
   "formats": [
     ".edf",
