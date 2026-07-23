@@ -1,0 +1,18 @@
+{
+  "dataset_id": "on004444",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:18:46.474Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds004444"
+  },
+  "complete": true,
+  "completeness": {
+    "files_present": 465,
+    "files_declared": 465,
+    "bytes_present": 52199674276,
+    "bytes_declared": 52204976381,
+    "pct_bytes": 0.9998984367896021
+  },
+  "missing": []
+}
