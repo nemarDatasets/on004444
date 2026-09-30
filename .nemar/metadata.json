@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 1",
-  "description": "This dataset comprises high-density scalp EEG recordings collected during sensorimotor rhythm-based brain-computer interface (BCI) tasks. It was designed to support research into motor imagery decoding and neurofeedback training using EEG signals. The dataset accompanies a data descriptor published in Scientific Data, providing detailed EEG recordings for BCI-related sensorimotor rhythm analysis.",
+  "description": "A high-density scalp EEG dataset recorded while participants performed sensorimotor rhythm-based brain-computer interface (BCI) tasks. The recordings support investigation of sensorimotor rhythm modulation and BCI control, as well as development of decoding and analysis methods. Sample analysis code is provided in an accompanying repository.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,19 +20,19 @@
       "term": "EEG"
     },
     {
-      "term": "brain-computer interface"
+      "term": "high-density EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "sensorimotor rhythm"
     },
     {
       "term": "motor imagery"
-    },
-    {
-      "term": "high-density EEG"
-    },
-    {
-      "term": "neurofeedback"
     }
   ],
   "related_identifiers": [
@@ -68,7 +68,7 @@
     "eeg"
   ],
   "sizes": [
-    "52.2 GB (466 files)"
+    "48.61 GB (466 files)"
   ],
   "formats": [
     ".edf",
